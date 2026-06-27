@@ -15,7 +15,7 @@ connectDB();
 
 app.use(cors({ 
   // origin: 'http://localhost:5173', 
-  origin : "https://portfolio-xi-smoky-64.vercel.app/", 
+  origin : "https://portfolio-xi-smoky-64.vercel.app", 
   credentials: true }));
 
 app.use(express.json({ limit: '10kb' }));
