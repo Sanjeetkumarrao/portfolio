@@ -1,0 +1,84 @@
+/* ============================================================
+   DESIGN TOKENS — edit here, reflects everywhere
+   ============================================================ */
+:root {
+  /* ── Colors ── */
+  --clr-bg:          #0C0C18;
+  --clr-surface:     #131320;
+  --clr-surface-2:   #191929;
+  --clr-border:      rgba(255, 255, 255, 0.07);
+  --clr-border-2:    rgba(255, 255, 255, 0.12);
+
+  --clr-accent:      #5B6EF5;
+  --clr-accent-dim:  rgba(91, 110, 245, 0.10);
+  --clr-accent-glow: rgba(91, 110, 245, 0.22);
+  --clr-teal:        #10D9C4;
+  --clr-teal-dim:    rgba(16, 217, 196, 0.10);
+
+  --clr-text-1:      #F0F0F8;
+  --clr-text-2:      #8A91AC;
+  --clr-text-3:      #52576E;
+
+  /* ── Typography ── */
+  --font-sans:   'Inter',        sans-serif;
+  --font-display:'Syne',         sans-serif;
+  --font-mono:   'JetBrains Mono', monospace;
+
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 15px;
+  --text-md:   17px;
+  --text-lg:   20px;
+  --text-xl:   26px;
+  --text-2xl:  36px;
+  --text-3xl:  52px;
+  --text-4xl:  72px;
+
+  /* ── Spacing ── */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+  --space-24:  96px;
+
+  /* ── Layout ── */
+  --sidebar-w:      64px;
+  --navbar-h:       64px;
+  --content-max:    820px;
+  --page-px:        var(--space-6);
+
+  /* ── Radii ── */
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  22px;
+  --radius-full: 9999px;
+
+  /* ── Transitions ── */
+  --ease:      cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast:  150ms;
+  --dur-base:  250ms;
+  --dur-slow:  450ms;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 48px rgba(0,0,0,0.5);
+}
+
+/* ── Responsive token overrides ── */
+@media (max-width: 768px) {
+  :root {
+    --text-3xl: 38px;
+    --text-4xl: 50px;
+    --page-px: var(--space-5);
+    --sidebar-w: 0px;
+  }
+}

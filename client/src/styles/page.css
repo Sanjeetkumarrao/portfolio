@@ -1,0 +1,16 @@
+/* ============================================================
+   page-container — applied on every page's root div
+   Keeps all pages consistently padded and max-width capped.
+   ============================================================ */
+.page-container {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-20) var(--page-px);
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding-top: var(--space-12);
+    padding-bottom: var(--space-12);
+  }
+}

@@ -1,0 +1,23 @@
+.card {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  transition: background var(--dur-base) var(--ease),
+              border-color var(--dur-base) var(--ease),
+              transform var(--dur-base) var(--ease),
+              box-shadow var(--dur-base) var(--ease);
+}
+
+.card--padded { padding: var(--space-6); }
+
+.card--hover { cursor: default; }
+.card--hover:hover {
+  background: var(--clr-surface-2);
+  border-color: rgba(255, 255, 255, 0.11);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Accent left border */
+.card--accent-accent { border-left: 3px solid var(--clr-accent); }
+.card--accent-teal   { border-left: 3px solid var(--clr-teal); }

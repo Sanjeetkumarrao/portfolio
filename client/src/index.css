@@ -1,0 +1,8 @@
+/* Layer 1 — Tokens (variables) */
+@import './styles/tokens.css';
+
+/* Layer 2 — Global resets & base */
+@import './styles/global.css';
+
+/* Layer 3 — Page layout */
+@import './styles/page.css';

@@ -1,0 +1,162 @@
+.about { }
+
+.about__section { margin-bottom: var(--space-16); }
+
+.about__section-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--clr-text-3);
+  margin-bottom: var(--space-5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about__section-title::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 1px;
+  background: var(--clr-text-3);
+  flex-shrink: 0;
+}
+
+/* Education */
+.about__edu-card { display: flex; flex-direction: column; gap: var(--space-2); }
+
+.about__edu-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.about__edu-degree {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--clr-text-1);
+  letter-spacing: -0.02em;
+}
+.about__edu-field  { font-size: var(--text-sm);  color: var(--clr-text-2); margin-top: 2px; }
+.about__edu-inst   { font-size: var(--text-base); font-weight: 600; color: var(--clr-accent); margin-top: var(--space-2); }
+.about__edu-period {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--clr-text-3);
+  margin-top: var(--space-1);
+}
+
+/* Skills grid */
+.about__skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+.about__skill-cat {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: var(--space-4);
+}
+
+.about__skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* Achievements */
+.about__achievements { display: flex; flex-direction: column; gap: var(--space-4); }
+
+.about__ach-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.about__ach-title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--clr-text-1);
+}
+
+.about__ach-year {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--clr-text-3);
+  flex-shrink: 0;
+}
+
+.about__ach-desc {
+  font-size: var(--text-sm);
+  color: var(--clr-text-2);
+  line-height: 1.7;
+}
+
+/* Code card */
+.about__code-card {
+  background: #0d0d20;
+  border: 1px solid rgba(91, 110, 245, 0.18);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.about__code-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.about__dots {
+  display: flex;
+  gap: 6px;
+}
+.about__dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: block;
+}
+
+.about__code-filename {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--clr-text-3);
+}
+
+.about__code-body {
+  padding: var(--space-6) var(--space-8);
+  overflow-x: auto;
+}
+
+.about__code-body code {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  line-height: 1.9;
+  white-space: pre;
+}
+
+.ck { color: #e879a0; }
+.cv { color: #7dd3fc; }
+.co { color: #6b7280; }
+.ca { color: #a5f3fc; }
+.cs { color: #86efac; }
+.cc { color: #4b5563; font-style: italic; }
+
+@media (max-width: 640px) {
+  .about__skills-grid { grid-template-columns: 1fr; }
+  .about__code-body   { padding: var(--space-5); }
+}
