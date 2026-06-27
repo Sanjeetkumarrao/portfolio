@@ -13,7 +13,7 @@ export const personal = {
     'I focus on clean architecture, real-time features, and scalable backends. Every project here is live and deployed.',
   ],
   location:  'Lucknow, Uttar Pradesh, India',
-  email:     '[your-email@gmail.com]',         // ← update this
+  email:     'sanjeetkumarbharti2018@gmail.com',         // ← update this
   resumeUrl: '[your-google-drive-resume-url]',  // ← update this
 };
 
@@ -22,25 +22,25 @@ export const socials = [
   {
     id:    'github',
     label: 'GitHub',
-    url:   'https://github.com/[your-username]', // ← update
+    url:   'https://github.com/Sanjeetkumarrao', // ← update
     icon:  'github',
   },
   {
     id:    'linkedin',
     label: 'LinkedIn',
-    url:   'https://linkedin.com/in/[your-linkedin]', // ← update
+    url:   'https://linkedin.com/in/sanjeet-kumar-rao', // ← update
     icon:  'linkedin',
   },
   {
     id:    'twitter',
     label: 'Twitter / X',
-    url:   'https://twitter.com/[your-twitter]', // ← update (optional)
+    url:   'https://twitter.com/sanjeetrao_0712', // ← update (optional)
     icon:  'twitter',
   },
   {
     id:    'email',
     label: 'Email',
-    url:   'mailto:[your-email@gmail.com]',       // ← update
+    url:   'mailto:sanjeetkumarbharti2018@gmail.com',       // ← update
     icon:  'mail',
   },
 ];

@@ -38,7 +38,6 @@ const Home = () => {
           </h1>
 
           <div className="hero__role reveal delay-2">
-            <span className="hero__role-prefix">I build&nbsp;</span>
             <span className="hero__role-typed" ref={typingRef} />
             <span className="hero__cursor">|</span>
           </div>
