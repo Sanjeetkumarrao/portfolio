@@ -28,7 +28,7 @@ export const socials = [
   {
     id:    'linkedin',
     label: 'LinkedIn',
-    url:   'https://linkedin.com/in/sanjeet-kumar-rao', // ← update
+    url:   'https://linkedin.com/in/sanjeet-kumar-rao-350b5a331', // ← update
     icon:  'linkedin',
   },
   {
