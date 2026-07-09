@@ -89,7 +89,7 @@ const Projects = () => (
     <div className="projects__cta reveal">
       <p>More work on GitHub</p>
       <a
-        href="https://github.com/[your-username]"
+        href="https://github.com/Sanjeetkumarrao"
         target="_blank"
         rel="noreferrer"
         className="projects__gh-link"

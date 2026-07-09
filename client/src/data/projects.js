@@ -11,8 +11,8 @@ export const featuredProjects = [
     desc:     'A full-featured video streaming platform with JWT authentication, video upload & delivery via Cloudinary, and complex MongoDB aggregation pipelines for view counts, likes, and channel analytics.',
     tech:     ['React', 'Node.js', 'Express', 'MongoDB', 'Cloudinary', 'JWT'],
     features: ['JWT Auth', 'Video Upload', 'MongoDB Aggregation', 'REST API'],
-    github:   'https://github.com/[your-username]/minitube', // ← update
-    live:     '#',                                            // ← update
+    github:   'https://github.com/Sanjeetkumarrao/minitube', // ← update
+    live:     'https://minitube-ruby.vercel.app/#',                                            // ← update
     featured: true,
   },
   {
@@ -22,8 +22,8 @@ export const featuredProjects = [
     desc:     'WhatsApp-style messaging built on Socket.io with live typing indicators, message read receipts, group chat rooms, and persistent history — all running on a single Node.js process.',
     tech:     ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
     features: ['Real-time Messaging', 'Typing Indicators', 'Read Receipts', 'Group Chat'],
-    github:   'https://github.com/[your-username]/echochat', // ← update
-    live:     '#',                                            // ← update
+    github:   'https://github.com/Sanjeetkumarrao/echochat', // ← update
+    live:     'https://ecochat-wheat.vercel.app/',                                            // ← update
     featured: true,
   },
   {
@@ -33,8 +33,8 @@ export const featuredProjects = [
     desc:     'Trello-inspired task manager with email verification via Nodemailer, board/card management, and full deployment — Express backend on Render, React frontend on Netlify.',
     tech:     ['React', 'Node.js', 'Express', 'MongoDB', 'Nodemailer'],
     features: ['Email Verification', 'Task Boards', 'Full Deployment'],
-    github:   'https://github.com/[your-username]/taskflow', // ← update
-    live:     '#',                                            // ← update
+    github:   'https://github.com/Sanjeetkumarrao/taskflow', // ← update
+    live:     'https://task-flow-beige-eight.vercel.app/',                                            // ← update
     featured: true,
   },
 ];
